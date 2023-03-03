@@ -1,0 +1,603 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-dark h2{
+    color: red !important;
+    background-color: red;
+}
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+h3 {
+    font-family: 'Staatliches', cursive;
+}
+
+p {
+    font-family: 'Staatliches', cursive;
+}
+
+
+.navbar{
+    background:rgb(206, 13, 13);
+    height:  100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.nav_logo a{
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 15px;
+    color: rgb(235, 205, 37)
+} .nav_logo a img{
+    width: 120px;
+    height: 60px;
+}
+.nav_logo a:hover{
+    transform: scale(1.1);
+}
+.nav_items a{
+    font-family: 'Staatliches', cursive;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav_items a:hover{
+    color: rgb(235, 205, 37);
+    transform: scale(1.1);
+    
+}
+.nav_items a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(235, 205, 37);
+    transition: all 0.5s;
+}
+.nav_items a:hover::before{
+    width: 100% !important;
+}
+.nav_toggle{
+    display: none;
+}
+ .navbar .nav_items .activarA{
+ color:  rgb(235, 205, 37);   
+}
+
+.info {
+    /* background-image: url(../imagenes/1.jpg);*/
+    background: repeating-linear-gradient(45deg,
+            rgba(255, 0, 0, 0) 20px,
+            rgba(229, 0, 0, 0) 40px,
+            #0e0e0e 50%,
+            #ffffff 50%);
+
+    background-color: red;
+    background-attachment: scroll;
+
+}
+
+
+
+.info h2 {
+    color: aliceblue;
+}
+
+.derecha h2 {
+    text-align: center;
+    font-size: 150px;
+    color: rgb(235, 205, 37);
+}
+
+.info h3 {
+    font-size: 50px;
+    color: white;
+}
+
+.info p {
+    color: white;
+}
+
+.contenedorImg img {
+    width: 100%;
+
+
+}
+
+
+
+
+.inscripcion {
+
+    padding-left: 20px;
+
+}
+
+.inscripcion a {
+    background-color: rgb(235, 205, 37);
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+
+.inscripcion a:hover {
+    background-color: white;
+    color: rgb(235, 205, 37);
+    transition: all 1s;
+    font-size: 45px;
+    -webkit-box-shadow: 1px -2px 99px 46px rgba(166, 145, 27, 1);
+    -moz-box-shadow: 1px -2px 99px 46px rgba(166, 145, 27, 1);
+    box-shadow: 1px -2px 99px 46px rgba(166, 145, 27, 1);
+
+
+
+}
+
+
+
+
+#mapa {
+    transition: all .4s;
+
+}
+
+#mapas ul li {
+    align-items: center;
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+
+#mapas {
+    padding: 200px;
+    background-color: #0e0e0e;
+}
+.mapas{
+    text-align: justify;
+}
+
+#mapas .mapa img {
+    width: 100%;
+}
+
+.omapas {
+    height: 600px;
+
+}
+
+.mapa img {
+    height: 600px;
+
+
+
+}
+
+#mapas h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+
+}
+
+#mapas ul li a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+}
+
+.activar {
+    color: red;
+    background-color: rgb(235, 205, 37);
+    border-radius: 10%;
+
+}
+
+#mapas .color h2 {
+    color: rgb(235, 205, 37);
+}
+
+#mapas .color p {
+    color: white;
+}
+
+.grupos a {
+    text-decoration: none;
+    color:rgb(201, 200, 196); ;
+}
+
+.grupos a img {
+    width: 150px;
+    height: 200px;
+
+}
+
+.caja {
+
+    height: 300px;
+    width: 200px;
+}
+
+.caja:hover {
+    transition: all .4s;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+tbody tr {
+    font-family: 'Staatliches', cursive;
+    color: rgb(17, 16, 16);
+}
+tbody tr td img{
+    width: 80px;
+    height: 80px;
+
+}
+
+tbody tr:hover {
+    font-family: 'Staatliches', cursive;
+    color: red;
+}
+
+
+/*Grupo*/
+
+.jugadores {
+    background: repeating-linear-gradient(45deg,
+            rgba(255, 0, 0, 0) 20px,
+            rgba(229, 0, 0, 0) 40px,
+            #0e0e0e 50%,
+            #ffffff 50%);
+
+    background-color: red;
+    background-attachment: scroll;
+    height: 600px;
+
+}
+
+.jugadores h2 {
+    font-size: 40px;
+    color: rgb(235, 205, 37);
+}
+
+.jugadores .jugador h3 {
+    font-size: 20px;
+    color: red;
+    padding-bottom: 50px;
+}
+
+.jugadores .jugador p {
+    font-size: 10px;
+    color: white;
+}
+
+.jugadores .jugador h4 {
+    font-family: 'Staatliches', cursive;
+    color: #fdfdfd;
+    font-size: 15px;
+}
+
+.jugadores .jugador img {
+    height: 200px;
+    width: 150px;
+}
+
+.icono img {
+    width: 100%;
+}
+
+.icono img:hover {
+    transform: scale(1.1);
+}
+
+.jugadores .jugador {
+    background-color: #0e0e0e;
+
+}
+
+.jugadores .jugador:hover {
+    transform: scale(1.1);
+
+}
+
+/*Inscripciones*/
+#inscripciones {
+    background-image: url(../imagenes/fondoInc.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.textoLlamativo h2{
+    color:rgb(235, 205, 37) ;
+    font-size: 40px;
+}
+
+
+#inscripciones .centrar {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+
+}
+.inscripcion .centrar h2{
+    color:rgb(235, 205, 37) ;
+    font-size: 100px;
+    font-weight: 500;
+}
+.formulario
+{
+    height: 400px;
+}
+
+.inscribir button{
+    border: solid 1px rgb(235, 205, 37);
+    background-color: red;
+    color: white;
+}
+.inscribir button:hover{
+    transition: all .4s;
+    border: solid 1px rgb(235, 205, 37);
+    
+    color:red;
+}
+
+.infos{
+    background-image: url(../imagenes/nueva2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.co{
+    background-color: #0e0e0e;
+}
+.co p{
+    color: rgb(174, 142, 142);
+    text-align: justify;
+}
+.co h2{
+    color: rgb(235, 205, 37);
+    font-size: 40px;
+}
+.co h3{
+    color: red;
+}
+
+
+@media (max-width: 768px) {
+    .infos{
+        background-image: url(../imagenes/kelly.jpg);
+        height: 500px;
+        background-size: cover;
+    }
+    .nav_items{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background: rgb(206, 13, 13);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: -webkit-fill-available;
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+    }
+
+
+
+    .nav_logo a{
+        font-family: 'Staatliches', cursive;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 40px;
+      
+    } .nav_logo a img{
+        width: 80px;
+        height: 60px;
+    }
+
+    .nav_items a{ text-align: center;}
+    .nav_toggle{
+        display: flex !important;
+        flex-direction: column;                
+        margin: 15px;
+    }
+    .nav_toggle span{
+        width: 30px;
+        height: 4px;
+        background: white;
+        margin-bottom: 5px;
+        border-radius: 2px;             
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+    .close span{
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+    .close span:nth-child(2){
+        display: none;
+    }
+    .close span:nth-child(3){
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+    .open{ transform: translateX(0) !important}
+
+
+
+
+
+    .derecha h2 {
+      
+        font-size: 40px;
+        
+    }
+    .info h3 {
+        font-size: 20px;
+      
+    }
+    .info p {
+        font-size: 10px;
+    }
+
+
+    .inscripcion a {
+      
+    
+        font-size: 20px;
+        
+    }
+    .info {
+        /* background-image: url(../imagenes/1.jpg);*/
+        background: repeating-linear-gradient(45deg,
+                rgba(255, 0, 0, 0) 20px,
+                rgba(229, 0, 0, 0) 40px,
+                #0e0e0e 70%,
+                #ffffff 50%);
+    
+        background-color: red;
+   
+    
+    }
+
+    .inscripcion a:hover {
+        background-color: white;
+        color: rgb(235, 205, 37);
+        transition: all 1s;
+        font-size: 35px;
+        -webkit-box-shadow: 1px -2px 99px 46px rgba(166, 145, 27, 1);
+        -moz-box-shadow: 1px -2px 99px 46px rgba(166, 145, 27, 1);
+        box-shadow: 1px -2px 99px 46px rgba(166, 145, 27, 1);
+    
+    
+    
+    }
+    .contenedorImg img {
+        width: 100%;
+    
+    
+    }
+
+    #mapas {
+        padding: 20px;
+        background-color: #0e0e0e;
+    }
+
+    .omapas {
+        height: 400px;
+    
+    }
+    
+    .mapa img {
+        height: 400px;
+    }
+
+    #mapas h2 {
+        color: white;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+    
+    }
+    
+    #mapas ul li a {
+        color: white;
+        font-size: 15px;
+        font-family: 'Staatliches', cursive;
+        text-decoration: none;
+    }
+    #mapas ul li {
+      
+        padding: 4px;
+    }
+    
+    .activar {
+        color: red;
+        background-color: rgb(235, 205, 37);
+        border-radius: 10%;
+    
+    }
+
+    .grupos a img {
+        width: 120px;
+        height: 150px;
+    
+    }
+    .caja {
+
+        height: 200px;
+        width: 150px;
+    }
+    thead tr{
+        font-size: 10px;
+    }
+    tbody tr {
+        font-family: 'Staatliches', cursive;
+        color: rgb(17, 16, 16);
+        font-size: 10px;
+    }
+    
+    tbody tr:hover {
+        font-family: 'Staatliches', cursive;
+        color: red;
+    }
+    tbody tr td img{
+        width: 40px;
+        height: 40px;
+    
+    }
+
+    .jugadores {
+        background: repeating-linear-gradient(45deg,
+                rgba(255, 0, 0, 0) 20px,
+                rgba(229, 0, 0, 0) 40px,
+                #0e0e0e 50%,
+                #ffffff 50%);
+    
+        background-color: red;
+        background-attachment: scroll;
+        height: 2000px;
+       
+    
+    }
+    .jugadores .jugador img {
+        width: 100%;
+       
+    }
+
+
+
+
+}
+@media(max_width:768px){
+  .nnav_items{
+    position: adosulute;
+    top: 60px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+  }  
+}
